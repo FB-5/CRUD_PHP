@@ -1,0 +1,123 @@
+/* formatação para TODAS as tags */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+}
+
+/* organização do layout */
+#all{
+	width: 865px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#php{
+	height: 270px;
+	background-image: url(../img/php.jpg);
+        
+}
+#menu{
+	height: 25px;
+	padding: 10px;
+	text-align: center;
+	background-color: #5185A6;
+}
+#menu a{
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #EEEEEE;
+}
+#menu a:hover{
+	background-color: #8BBBD9;
+	color: #FFFFFF;
+}
+#content{
+	/*height: 300px;  tirar depois */
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+#text{
+	width: 625px;
+	float: left;
+}
+#prodest{
+	width: 280px;
+	padding: 10px;
+	margin: 5px;
+	border: #666666 solid 1px;
+	float: left;
+}
+#prodest img{
+	margin-right: 5px;
+	float: left;
+	width: 120px;
+	height: 120px;
+}
+#prolist{
+	width: 605px;
+	height: 120px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: #666666 solid 1px;
+}
+#prolist img{
+	margin-right: 5px;
+	float: left;
+	width: 120px;
+	height: 120px;
+}
+#info{
+	width: 300px;
+	float: left;
+}
+#form{
+	width: 300px;
+	margin-left: 320px;
+}
+	
+#news{
+	width: 180px;
+	margin-left: 645px;
+        adding: 10px;
+	background-color: #EEEEEE;
+        
+}
+#footer{
+	height: 20px;
+	padding: 10px;
+	text-align: center;
+	background-color: #952a2a;
+	color: #EEEEEE;
+}
+
+
+/* estilos para uso em tags específicas */
+.limpar_flutuacao{
+	clear: both;
+}
+
+
+/* formatação para outras tags do HTML */
+html{
+	overflow: -moz-scrollbars-vertical; /*so para mozila*/
+	overflow-y: scroll;
+}
+body{
+	background-color: #1C4859;
+}
+h1{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+h2{
+	font-size: 26px;
+	margin-bottom: 10px;
+}
