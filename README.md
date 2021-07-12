@@ -4,7 +4,7 @@
 
 Minha primeira experiência com php.
 
-Treinamento da Alfamídia para a criação de um CRUD básico em PHP.
+Treinamento da Alfamídia para a criação de um CRUD básico com PHP.
 
 INSTRUTOR 
 
