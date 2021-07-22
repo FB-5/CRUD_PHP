@@ -1,4 +1,4 @@
-## CRUD em php
+## CRUD com PHP
 
 ![Screenshot_2](https://github.com/FB-5/CRUD_PHP/blob/main/img/Crud_Php.jpg)
 
